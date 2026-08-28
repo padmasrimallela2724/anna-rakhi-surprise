@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff0f5, #ffe4ec, #fff8f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome {
+    width: 90%;
+    max-width: 600px;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 30px;
+    box-shadow: 0 10px 35px rgba(120, 50, 70, 0.15);
+}
+
+.welcome h1 {
+    font-size: 48px;
+    color: #a52a4a;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 21px;
+    color: #5f3b45;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.welcome button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #c94f70;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.welcome button:hover {
+    transform: scale(1.05);
+    background: #a52a4a;
+}
+.photo-gallery img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.welcome button {
+    display: block;
+    margin: 25px auto 0;
+}
+.hidden {
+    display: none;
+}
+
+#surpriseMessage {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.6;
